@@ -22,6 +22,14 @@ class ViewController: UIViewController,CSPickerViewDelegate {
         customView.delegate = self
     }
     func donePicker(month: Int, year: Int) {
+        var stringMonth : String!
+        if (month < 10){
+            stringMonth = "0" + String(month)
+        }else{
+            stringMonth = String(month)
+        }
+        
+        self.showPicker.setTitle("\(stringMonth)/\(year)" , forState: UIControlState.Normal)
         print(month,year)
     }
     override func didReceiveMemoryWarning() {

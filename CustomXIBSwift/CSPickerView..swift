@@ -1,5 +1,5 @@
 //
-//  TestView.swift
+//  CSPickerView.swift
 //  pickerkViewSwift
 //
 //  Created by quy on 5/15/16.
