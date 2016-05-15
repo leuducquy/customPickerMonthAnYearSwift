@@ -25,7 +25,7 @@ protocol CSPickerViewDelegate {
     }
    
    
-    @IBOutlet weak var titleEx: UILabel!
+  
 
     @IBAction func hidePickerView(sender: AnyObject) {
        self.hidden = true
@@ -36,17 +36,7 @@ protocol CSPickerViewDelegate {
         self.hidden = true
     }
     @IBOutlet weak var donePickerView: UIButton!
-    @IBInspectable var lblTitleText : String?
-        {
-        get{
-            return titleEx.text;
-        }
-        set(lblTitleText)
-        {
-            titleEx.text = lblTitleText!;
-        }
-    }
-
+   
     
        func loadViewFromNib() {
         let bundle = NSBundle(forClass: self.dynamicType)

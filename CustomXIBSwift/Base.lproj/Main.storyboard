@@ -29,9 +29,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="248" id="j81-Y8-11y"/>
                                 </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="lblTitleText" value="Year"/>
-                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

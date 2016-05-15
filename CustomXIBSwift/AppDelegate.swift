@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  CustomXIBSwift
 //
-//  Created by Karthik Prabhu Alagu on 06/08/15.
-//  Copyright © 2015 KPALAGU. All rights reserved.
+//   Created by quy on 5/14/16.
+//  Copyright © 2015 quy. All rights reserved.
 //
 
 import UIKit
