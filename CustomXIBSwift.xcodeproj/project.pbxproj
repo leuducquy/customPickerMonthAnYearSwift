@@ -14,9 +14,10 @@
 		282FFA1A1B739AB200C236E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282FFA181B739AB200C236E3 /* LaunchScreen.storyboard */; };
 		282FFA251B739AB200C236E3 /* CustomXIBSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FFA241B739AB200C236E3 /* CustomXIBSwiftTests.swift */; };
 		282FFA301B739AB200C236E3 /* CustomXIBSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FFA2F1B739AB200C236E3 /* CustomXIBSwiftUITests.swift */; };
-		282FFA3E1B739B1500C236E3 /* SimpleCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FFA3D1B739B1500C236E3 /* SimpleCustomView.swift */; };
-		282FFA401B739B2000C236E3 /* SimpleCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282FFA3F1B739B2000C236E3 /* SimpleCustomView.xib */; };
 		282FFA441B739DFE00C236E3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FFA431B739DFE00C236E3 /* SecondViewController.swift */; };
+		F20042D81CE8566B0073AC03 /* CSPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F20042D61CE8566B0073AC03 /* CSPickerView.xib */; };
+		F20042D91CE8566B0073AC03 /* CSPickerView..swift in Sources */ = {isa = PBXBuildFile; fileRef = F20042D71CE8566B0073AC03 /* CSPickerView..swift */; };
+		F20042DB1CE858670073AC03 /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20042DA1CE858670073AC03 /* MonthYearPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +51,10 @@
 		282FFA2B1B739AB200C236E3 /* CustomXIBSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomXIBSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		282FFA2F1B739AB200C236E3 /* CustomXIBSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomXIBSwiftUITests.swift; sourceTree = "<group>"; };
 		282FFA311B739AB200C236E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		282FFA3D1B739B1500C236E3 /* SimpleCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCustomView.swift; sourceTree = "<group>"; };
-		282FFA3F1B739B2000C236E3 /* SimpleCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCustomView.xib; sourceTree = "<group>"; };
 		282FFA431B739DFE00C236E3 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F20042D61CE8566B0073AC03 /* CSPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSPickerView.xib; sourceTree = "<group>"; };
+		F20042D71CE8566B0073AC03 /* CSPickerView..swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSPickerView..swift; sourceTree = "<group>"; };
+		F20042DA1CE858670073AC03 /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,9 @@
 		282FFA0E1B739AB200C236E3 /* CustomXIBSwift */ = {
 			isa = PBXGroup;
 			children = (
+				F20042D61CE8566B0073AC03 /* CSPickerView.xib */,
+				F20042D71CE8566B0073AC03 /* CSPickerView..swift */,
+				F20042DA1CE858670073AC03 /* MonthYearPickerView.swift */,
 				282FFA0F1B739AB200C236E3 /* AppDelegate.swift */,
 				282FFA111B739AB200C236E3 /* ViewController.swift */,
 				282FFA431B739DFE00C236E3 /* SecondViewController.swift */,
@@ -110,8 +115,6 @@
 				282FFA161B739AB200C236E3 /* Assets.xcassets */,
 				282FFA181B739AB200C236E3 /* LaunchScreen.storyboard */,
 				282FFA1B1B739AB200C236E3 /* Info.plist */,
-				282FFA3D1B739B1500C236E3 /* SimpleCustomView.swift */,
-				282FFA3F1B739B2000C236E3 /* SimpleCustomView.xib */,
 			);
 			path = CustomXIBSwift;
 			sourceTree = "<group>";
@@ -238,8 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				282FFA1A1B739AB200C236E3 /* LaunchScreen.storyboard in Resources */,
-				282FFA401B739B2000C236E3 /* SimpleCustomView.xib in Resources */,
 				282FFA171B739AB200C236E3 /* Assets.xcassets in Resources */,
+				F20042D81CE8566B0073AC03 /* CSPickerView.xib in Resources */,
 				282FFA151B739AB200C236E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20042DB1CE858670073AC03 /* MonthYearPickerView.swift in Sources */,
 				282FFA441B739DFE00C236E3 /* SecondViewController.swift in Sources */,
-				282FFA3E1B739B1500C236E3 /* SimpleCustomView.swift in Sources */,
+				F20042D91CE8566B0073AC03 /* CSPickerView..swift in Sources */,
 				282FFA121B739AB200C236E3 /* ViewController.swift in Sources */,
 				282FFA101B739AB200C236E3 /* AppDelegate.swift in Sources */,
 			);
