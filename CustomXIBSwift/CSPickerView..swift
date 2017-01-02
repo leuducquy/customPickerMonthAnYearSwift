@@ -8,7 +8,7 @@
 
 import UIKit
 protocol CSPickerViewDelegate {
-    func donePicker(month:Int, year: Int)
+    func donePicker(_ month:Int, year: Int)
 }
 
 @IBDesignable class CSPickerView: UIView {
@@ -27,23 +27,23 @@ protocol CSPickerViewDelegate {
    
   
 
-    @IBAction func hidePickerView(sender: AnyObject) {
-       self.hidden = true
+    @IBAction func hidePickerView(_ sender: AnyObject) {
+       self.isHidden = true
        
     }
-    @IBAction func doneButtonClicked(sender: AnyObject) {
+    @IBAction func doneButtonClicked(_ sender: AnyObject) {
         self.delegate?.donePicker(pickerView.month, year: pickerView.year)
-        self.hidden = true
+        self.isHidden = true
     }
     @IBOutlet weak var donePickerView: UIButton!
    
     
        func loadViewFromNib() {
-        let bundle = NSBundle(forClass: self.dynamicType)
+        let bundle = Bundle(for: type(of: self))
         let nib = UINib(nibName: "CSPickerView", bundle: bundle)
-        let view = nib.instantiateWithOwner(self, options: nil)[0] as! UIView
+        let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
         view.frame = bounds
-        view.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
+        view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.addSubview(view);
         
         

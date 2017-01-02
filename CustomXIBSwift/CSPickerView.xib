@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CSPickerView" customModule="CustomXIBSwift" customModuleProvider="target">
@@ -20,7 +24,7 @@
                     <subviews>
                         <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6pb-yH-e4R" customClass="MonthYearPickerView" customModule="CustomXIBSwift" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="32" width="320" height="216"/>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         </pickerView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Gm-b5-Jao">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
@@ -40,7 +44,7 @@
                                     </connections>
                                 </button>
                             </subviews>
-                            <color key="backgroundColor" red="1" green="0.40498540659999999" blue="0.47778280039999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="1" green="0.40498540659999999" blue="0.47778280039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstItem="sEk-wf-max" firstAttribute="leading" secondItem="3Gm-b5-Jao" secondAttribute="leading" constant="15" id="ZcJ-sU-2iG"/>
                                 <constraint firstAttribute="trailing" secondItem="7Ka-2e-xdl" secondAttribute="trailing" constant="15" id="dHz-7o-TiZ"/>
@@ -50,7 +54,7 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="320" id="43y-df-CYE"/>
                         <constraint firstAttribute="bottom" secondItem="6pb-yH-e4R" secondAttribute="bottom" id="EhE-Ut-V70"/>
@@ -77,7 +81,7 @@
                     </variation>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="bkJ-Dc-aNG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="MET-77-0V2"/>
                 <constraint firstAttribute="trailing" secondItem="bkJ-Dc-aNG" secondAttribute="trailing" id="PgU-SP-YE2"/>
